@@ -1,0 +1,33 @@
+# Wharton Project Gitignore
+
+# Drafts and unfinalized revisions (Not to be staged)
+drafts/
+
+# Archived waste HTML pages and scraped assets
+trash/
+
+# Courseware & external learning modules (copyrighted third-party content)
+learning_materials/
+
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# IDE & Editor settings
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Large cached raw data files (auto-generated / can be re-downloaded via script)
+excel_subprocesses/investment_returns.xlsx
+excel_subprocesses/stocks_data.xlsx
+excel_subprocesses/Open_Close.xlsx
+excel_subprocesses/High_Low.xlsx
+
+# System shortcuts and artifacts
+*.lnk
+Thumbs.db
+Desktop.ini
